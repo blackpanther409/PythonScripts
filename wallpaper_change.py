@@ -20,7 +20,7 @@ wallpapers_list = []
 list = os.listdir(wallpapers_location)
 logger.info(list)
 
-#Checking the OS
+#Checking the current OS
 if platform.system()=='Windows':
     print("Not updated for Windows")
 elif platform.system()=='Darwin':
